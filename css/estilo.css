@@ -1,0 +1,115 @@
+Body{
+ margin: 0;
+ padding: 0;  
+ background-color: rgb(143, 145, 146); 
+}
+
+.imagen_mobile{
+ margin-top: 20px;
+ width: 93%;
+ margin-left: 20px; 
+ background-color: white;
+ height: 120vh;
+ border-top-left-radius: 20px;
+ border-top-right-radius: 20px;
+ border-bottom-left-radius: 20px;
+ border-bottom-right-radius: 20px;  
+}
+
+.imagen_mobile>img{
+ width: 100%;
+ border-top-left-radius: 20px;
+ border-top-right-radius: 20px;   
+}
+
+.textototal{ 
+ /*background-color: aqua;*/   
+ width: 405px; 
+ height: 370px;
+ margin-top: 20px;
+ margin-left: 23px;
+}
+
+.perfum{
+ font-family: Arial, Helvetica, sans-serif;
+ color: hsl(228, 12%, 48%);
+ margin-bottom: 10px;
+ font-size: 20px;
+}
+
+.nombreperfume{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 48px;   
+}
+
+.description{
+ margin-top: 20px;
+ font-family: Arial, Helvetica, sans-serif;
+ color: hsl(228, 12%, 48%);
+ font-size: 20px;   
+}
+
+.precios{
+ font-family: Arial, Helvetica, sans-serif;  
+ margin-top: 25px; 
+ display: flex;
+}
+
+.precioPrincipal{
+    color: hsl(158, 36%, 37%);
+    font-size: 50px;
+    margin-right: 25px;   
+}
+
+.preciosecundario{
+ margin-top: 20px;   
+ color: hsl(228, 12%, 48%);
+}
+
+.boton{
+ margin-top: 15px;  
+ width: 100%; 
+ height: 35px;
+ background-color: hsl(158, 36%, 37%);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ color:white
+}
+
+.boton>img{
+ padding: 0 10px;   
+}
+
+@media screen and (min-width: 800px) {
+ body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+ }
+ 
+  .imagen_mobile{
+  border-bottom-left-radius: 20px;
+  width: 850px;
+  height: 400px; 
+ }
+
+ .imagen_mobile > img{
+  background-image: url('../images/image-product-desktop.jpg');  
+  width: 400px; 
+  height: 100%;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 20px;
+  } 
+  
+  .textototal{
+    position: absolute;
+    left: 670px;
+    bottom: 130px;
+  }
+    
+}
+
+
+
